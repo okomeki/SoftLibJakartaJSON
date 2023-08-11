@@ -1,6 +1,6 @@
 # SoftLibJakartaJSON
 
-SoftLibJSON の Jakarta EE対応がJDK 9以降が必要になるため分割したものです。
+SoftLibJSON の Jakarta EE対応でJDK 9以降が必要になるため分割したものです。
 
 SoftLibRebind経由で相互に変換が可能です。
 
@@ -8,6 +8,7 @@ SoftLibRebind経由で相互に変換が可能です。
 
 - Jakarta EE JSON Processing
 - Jakarta EE JSON Binding
+- SoftLibRebind での変換 
 
 ## Maven
 

@@ -17,7 +17,6 @@ package net.siisise.json.jakarta;
 
 import jakarta.json.JsonValue;
 import jakarta.json.spi.JsonProvider;
-import java.lang.reflect.Type;
 import java.math.BigDecimal;
 import java.math.BigInteger;
 import java.util.Collection;
@@ -37,11 +36,6 @@ public class JakartaProviderConvert implements TypeBind<JsonValue> {
     
     public JakartaProviderConvert() {
         provider = JsonProvider.provider();
-    }
-
-    @Override
-    public Type targetClass() {
-        return JsonValue.class;
     }
 
     @Override

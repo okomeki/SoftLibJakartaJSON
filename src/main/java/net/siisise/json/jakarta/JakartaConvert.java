@@ -14,11 +14,6 @@ import net.siisise.bind.format.TypeBind;
 public class JakartaConvert implements TypeBind<JsonValue> {
     
     @Override
-    public Class<JsonValue> targetClass() {
-        return JsonValue.class;
-    }
-
-    @Override
     public JsonValue nullFormat() {
         return JsonValue.NULL;
     }
