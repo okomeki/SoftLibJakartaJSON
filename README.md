@@ -18,11 +18,11 @@ SoftLibJSONなどから依存関係になっているので使いたい機能を
 <dependency>
   <groupId>net.siisise<groupId>
   <artifactId>softlib-jakarta.json</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>0.0.2-SNAPSHOT</version>
   <type>jar</type>
 </dependency>
 ```
-まだSNAPSHOTです。
+0.0.1 リリースです。
 
 ## LICENSE
 

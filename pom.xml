@@ -5,7 +5,7 @@
     <artifactId>softlib-jakarta.json</artifactId>
     <name>SoftLibJakartaJSON</name>
     <description>Jakarta EE JSON Processing JSON Binding JSON APIs Implements</description>
-    <version>0.0.1</version>
+    <version>0.0.2-SNAPSHOT</version>
     <packaging>jar</packaging>
     <url>https://github.com/okomeki/SoftLib</url>
     <licenses>
@@ -103,7 +103,7 @@
         <dependency>
             <groupId>jakarta.json.bind</groupId>
             <artifactId>jakarta.json.bind-api</artifactId>
-            <version>3.0.0</version>
+            <version>[3.0.0,)</version>
             <type>jar</type>
         </dependency>
         <dependency>
